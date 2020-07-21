@@ -1,0 +1,32 @@
+"""5月30日"""
+1、3e-5, 2e-5 √
+2、预测 √
+3、ad_id 60w步  √
+4、electra 预训练
+5、gender 权重 √
+
+"""5月31日"""
+1、预测 √
+2、gender权重是否由于只给了10w样本，没有拟合出更多数据 20w,1e-9再次尝试 √
+3、focal_loss
+4、全部数据训练集 2epoch √
+5、drop_out = 0.2
+
+#avg>cls  [0.8,0.2]>others  3e-5>others  dym>ori
+"""6月1日"""
+1、预测 √
+2、focal_loss  √
+3、electra下游任务 TODO
+4、256 create_pretranning_data √
+5、dympooling
+6、性别用cls年龄用avg_pooling √
+
+"""6月2日"""
+1、预测 √
+2、electra下游任务 √
+4、续用256数据继续训练90w步
+5、dympooling
+6、TF-IDF下游
+7、Max_pooling
+
+[0.85,0.15]>others
